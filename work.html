@@ -11,10 +11,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Welcome To My Portfolio</title>
+    <title>My work</title>
   </head>
 
-  <body id="bg-img">
+  <body>
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -27,8 +27,8 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current">
-            <a href="/" class="nav-link">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
               Home
             </a>
           </li>
@@ -37,7 +37,7 @@
               About me
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item current">
             <a href="work.html" class="nav-link">
               My Work
             </a>
@@ -51,22 +51,36 @@
       </nav>
     </header>
 
-    <main id="home">
-      <h1 class="lg-heading">
-        Jack <span class="text-secondary">McLoughlin </span>
-      </h1>
+    <main id="work">
+      <h1 class="lg-heading">My <span class="text-secondary">Work </span></h1>
       <h2 class="sm-heading">
-        Web Developer, Programmer and Designer.
+        Check out my projects
       </h2>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/jack-mcloughlin-89ba61182">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://github.com/jackmacaa">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-      </div>
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img src="img/projects/portfolio.PNG" alt="project1" />
+          </a>
+          <a href="https://github.com/jackmacaa/portfolio" class="btn-dark"> <i class="fab fa-github"></i>Github </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/projects/javaGame.PNG" alt="project2" />
+          </a>
+          <a href="https://github.com/jackmacaa/javaGame" class="btn-dark"> <i class="fab fa-github"></i>Github </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/projects/livepoker.PNG" alt="project3" />
+          </a>
+
+          <a href="https://github.com/jackmacaa/livePoker" class="btn-dark"> <i class="fab fa-github"></i>Github </a>
+        </div>
     </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019
+    </footer>
 
     <script src="js/main.js"></script>
   </body>
